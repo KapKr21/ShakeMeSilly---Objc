@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="edosz.ttf">
+            <string>EdoSZ</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beach" translatesAutoresizingMaskIntoConstraints="NO" id="Xup-Qr-7gx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivU-7a-KTF">
+                                <rect key="frame" x="16" y="590" width="382" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="aBS-cy-kcz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EdoSZ" family="Edo SZ" pointSize="45"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake Me  Silly" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4u7-O0-ADQ">
+                                <rect key="frame" x="16" y="30" width="382" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4u7-O0-ADQ" secondAttribute="height" multiplier="343:134" id="16c-i8-IhH"/>
+                                    <constraint firstAttribute="height" constant="134" id="DVy-xp-oP6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EdoSZ" family="Edo SZ" pointSize="55"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="2" height="3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykI-xp-EeD">
+                                <rect key="frame" x="16" y="172" width="382" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="RsY-FW-BgA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EdoSZ" family="Edo SZ" pointSize="45"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Maracas1" translatesAutoresizingMaskIntoConstraints="NO" id="Btr-Hg-0AG">
+                                <rect key="frame" x="16" y="235" width="398" height="354"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Idz-RW-KJH">
+                                <rect key="frame" x="16" y="653" width="382" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="DEA-Fq-VPS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EdoSZ" family="Edo SZ" pointSize="34"/>
+                                <size key="titleShadowOffset" width="2" height="2"/>
+                                <state key="normal" title="Start the Game">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="89V-E7-V4J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ivU-7a-KTF" secondAttribute="trailing" constant="16" id="2e9-h7-hBC"/>
+                            <constraint firstItem="Idz-RW-KJH" firstAttribute="top" secondItem="ivU-7a-KTF" secondAttribute="bottom" constant="8" id="3pL-lQ-ZBp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Idz-RW-KJH" secondAttribute="bottom" constant="30" id="4DM-eG-O2q"/>
+                            <constraint firstAttribute="bottom" secondItem="Xup-Qr-7gx" secondAttribute="bottom" id="8xt-lI-fnV"/>
+                            <constraint firstItem="ivU-7a-KTF" firstAttribute="top" secondItem="Btr-Hg-0AG" secondAttribute="bottom" constant="1" id="9Qa-cd-jKQ"/>
+                            <constraint firstItem="4u7-O0-ADQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Bl8-Ua-3dg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Idz-RW-KJH" secondAttribute="trailing" constant="16" id="DOB-8C-aKB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ykI-xp-EeD" secondAttribute="trailing" constant="16" id="Mdx-NI-uOY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4u7-O0-ADQ" secondAttribute="trailing" constant="16" id="NjC-HF-Hht"/>
+                            <constraint firstItem="ykI-xp-EeD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="StM-qr-aeW"/>
+                            <constraint firstItem="ivU-7a-KTF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Woz-uP-BGU"/>
+                            <constraint firstItem="4u7-O0-ADQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Zse-cA-Poe"/>
+                            <constraint firstItem="Xup-Qr-7gx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="b0V-08-grN"/>
+                            <constraint firstItem="ykI-xp-EeD" firstAttribute="top" secondItem="4u7-O0-ADQ" secondAttribute="bottom" constant="8" id="c41-WF-07D"/>
+                            <constraint firstItem="Xup-Qr-7gx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="c4l-9p-3Wc"/>
+                            <constraint firstItem="Idz-RW-KJH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ddA-cZ-Fz2"/>
+                            <constraint firstItem="Btr-Hg-0AG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pWC-jb-qTL"/>
+                            <constraint firstItem="Xup-Qr-7gx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tCJ-rT-KK0"/>
+                            <constraint firstItem="Btr-Hg-0AG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="v7O-be-1mo"/>
+                            <constraint firstItem="Btr-Hg-0AG" firstAttribute="top" secondItem="ykI-xp-EeD" secondAttribute="bottom" constant="8" id="vPB-GK-c5s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Btr-Hg-0AG" id="xam-xA-18s"/>
+                        <outlet property="scoreLabel" destination="ivU-7a-KTF" id="V2c-Cj-vR0"/>
+                        <outlet property="startGameOutlet" destination="Idz-RW-KJH" id="W3W-V1-TIw"/>
+                        <outlet property="timeLabel" destination="ykI-xp-EeD" id="N0R-SM-iKe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Maracas1" width="551" height="743"/>
+        <image name="beach" width="844" height="888"/>
+    </resources>
+</document>
